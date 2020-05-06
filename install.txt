@@ -1,0 +1,57 @@
+******* Installation instructions for Fire Alarm Monitoring System *******
+
+
+
+-------------------Software Requirements-------------------
+
+(01) Eclipse IDE for Enterprise Java Developers - REST API
+(02) WebStorm 2019.3.3 x64 (Web Client & Sensor App)
+(03) NetBeans IDE 8.2 (Desktop Client)
+(04) MySQL Workbench 8.0 CE (Database)
+(05) Postman
+
+
+
+
+--------------------------------------Setting up the Project Environment--------------------------------------
+
+(01) Download and Install Eclipse IDE for Enterprise Java Developers : https://www.eclipse.org/downloads/ 
+
+(02) Download and Install WebStorm 2019.3.3 x64 : https://www.jetbrains.com/webstorm/download/#section=windows
+
+(03) Download and Install NetBeans IDE 8.2 https://netbeans.org/downloads/8.2/
+
+(04) Download and Install MySQL Workbench 8.0 CE : https://dev.mysql.com/downloads/workbench/ 
+
+(05) Download and Install Postman : https://www.postman.com/downloads/
+
+
+
+
+--------------------------------------Steps to set up Fire Alarm Monitoring System--------------------------------------
+
+
+GitHub link - https://github.com/DsAssignment2/Fire-Alarm-Monitoring-System
+All the source codes of the fire alarm monitoring system are included in the GitHub link.
+
+YouTube link - 
+The working fire alarm monitoring system is displayed in the YouTube Video.
+
+
+
+(01) Follow the GitHub link and Download the project from Github repository named DS_Assignment2.
+
+(02) Unzip and extract the Assignment project folder into desktop (or any location) on your windows machine.
+
+(03) Open MySQL Workbench 8.0 CE and create a new database with the name "firealarmsystemdb". Import the sql script file to the "firealarmsystemdb" database.
+
+(04) Open Eclipse IDE and import the project folder 'firealarmrest'. Start the Aapache-tomcat-9.0.34 server and run the project. (Server is run on the port 8080)
+
+(05) Open NetBeans IDE 8.2 and import the project folder called 'FireAlarmSystem' and run it to see the desktop client interface. Using this desktop clint Pre-registered users can Log in to the system, unregistered users can register as the new user to the system, register new fire alarms to the system, view/update sensor details and delete sensor from the Fire Alarm Monitoring System. The desktop client sensor details are refreshed every 30 seconds.
+
+(06) Open WebStorm 2019.3.3 x64 and import the project folder called sensor-web-client. Run sensor-web-client project. (Web client implemented using react.js and it runs on the port 3000.) Automatically browser will open and show the web client. It displays the sensor dashboard and give the details of the fire alarm sensors. The web client sensor details are refreshed every 40 seconds.
+
+(07) Open another WebStorm project and import the project folder called mock-sensor-data. Run mock-sensor-data project. Automatically your browser will open and show the sensor app.(it runs on the port 4000.) The sensor app used to select sensor randomly and update sensor details like co2 level and smoke level.  
+
+All the packages, environments and import statements should be required to run the Fire Alarm Monitoring System project.
+
